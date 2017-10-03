@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import os
 
-base = '../Pictures/Difference/'
+base = '../Pictures/Results/Difference.png'
 images = os.listdir(base)
 for k in range(0,len(images),110):
 
